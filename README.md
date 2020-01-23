@@ -68,31 +68,26 @@ class Product extends Model
 ```
 Laravel Reviews package table `reviews` has fields `title`, `body`, `rate`, `approved`, and `reviewer_id`
 
-> If you want to return the data of the reviewer who added the review you must make a relationship between the 
-> `reviews` table and the reviewer model.
->
-> ex:
-> ```php
-> /*
->  * Inside Product model
->  */
->  
-> public function user() {
->   return $this->hasMany(\Melogail\LaravelReviews\Models\Review::class, 'reviewer_id', 'id');
->  
-> }
->```
-
 ### Return All Reviews:
 To return all reviews for specific object (ex: product):
 
 ```php
- foreach($product->reviews() as $review) {
+ foreach($product->reviews as $review) {
   
     $review->title;
      
  }
 ```
+
+### Return The Review Reviewer
+To get the data of the reviewer, you can use laravel property chain `reviewer`.
+```php
+foreach($product->reviews as $review)
+{
+    $review->reviewer->name;
+}
+```
+
 ### Add Review:
 You use method `addReview($data)` to add review for you object. The method accept array of data as a parameter.
 

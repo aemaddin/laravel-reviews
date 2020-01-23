@@ -45,7 +45,7 @@ class Review extends Model
      */
     public function reviewer()
     {
-        return $this->belongsTo(config('laravel-reviews.models.reviewer.class'),'reviewer_id' );
+        return $this->belongsTo(config('laravel-reviews.models.reviewer.class') ,'reviewer_id', 'id');
     }
 
 }
