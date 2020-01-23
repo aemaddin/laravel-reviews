@@ -31,7 +31,7 @@ Update your autoload files
 composer dump-autoload -o
 ```
 ### Forth
-By default, the `reviewable_id` is pointing to the `App\User` model, you can update your `reviewer_id`
+By default, the `reviewer_id` is pointing to the `App\User` model, you can update your `reviewer_id`
 pointer to any other model.
 ```php
 require [
