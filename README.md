@@ -1,3 +1,4 @@
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/melogail/laravel-reviews/issues)  [![version 1.0.0](https://img.shields.io/badge/version-1.0.0-orange)]  
 # Laravel Reviews (Overview)
 **Laravel Reviews** package is useful for adding reviewing and rating system to your laravel web application. It is
 useful for eCommerce, Blogs... etc.
