@@ -18,7 +18,7 @@ return [
 
         'reviewer' => [
 
-            'class' => App\Models\User::class,  // model reviewer
+            'class' => App\User::class,  // model reviewer
 
         ]
 

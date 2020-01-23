@@ -6,7 +6,7 @@
  * Time: 04:51 م
  */
 
-namespace Melogail\LaravelReviews\Traits;
+namespace Melogail\LaravelReviews;
 
 
 use Melogail\LaravelReviews\Models\Review;
