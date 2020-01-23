@@ -1,4 +1,4 @@
-# Laravel Reviews (Overview)
+#Laravel Reviews (Overview)
 **Laravel Reviews** package is useful for adding reviewing and rating system to your laravel web application. It is
 useful for eCommerce, Blogs... etc.
 
@@ -10,7 +10,7 @@ useful for eCommerce, Blogs... etc.
 * Get average rate of specific review.
 * You can choose to add either (title, body, or rate) to your review.
 
-## How to install
+##How to install
 ###First:
 Use the following `composer` command to install the package:
 ```
