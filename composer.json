@@ -1,6 +1,7 @@
 {
     "name": "melogail/laravel-reviews",
-    "description": "Reviews system with rating for laravel framework",
+    "description": "Reviews system with rating for laravel 5.*/6.* framework",
+    "keywords": ["reviews", "reviewable", "rating", "laravel"],
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -15,7 +16,11 @@
             "Melogail\\LaravelReviews\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "php": "^7.2",
+        "illuminate/database": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0",
+        "illuminate/support": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0"
+    },
     "extra": {
         "laravel": {
             "providers": [
