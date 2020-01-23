@@ -6,10 +6,10 @@
  * Time: 04:51 م
  */
 
-namespace Ogail\LaravelReviews\Traits;
+namespace Melogail\LaravelReviews\Traits;
 
 
-use Ogail\LaravelReviews\Models\Review;
+use Melogail\LaravelReviews\Models\Review;
 
 trait Reviewable
 {

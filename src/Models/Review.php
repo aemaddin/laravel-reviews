@@ -1,6 +1,6 @@
 <?php
 
-namespace Ogail\LaravelReviews\Models;
+namespace Melogail\LaravelReviews\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

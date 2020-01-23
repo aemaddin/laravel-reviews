@@ -1,6 +1,6 @@
 <?php
 
-namespace Ogail\LaravelReviews\Providers;
+namespace Melogail\LaravelReviews\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
