@@ -66,7 +66,7 @@ class Product extends Model
     // model code follows...
 }
 ```
-Reviews package table `reviews` has fields `title`, `body`, `rate`, `approved`, and `reviewer_id`
+Laravel Reviews package table `reviews` has fields `title`, `body`, `rate`, `approved`, and `reviewer_id`
 
 > If you want to return the data of the reviewer who added the review you must make a relationship between the 
 > `reviews` table and the reviewer model.
@@ -74,7 +74,7 @@ Reviews package table `reviews` has fields `title`, `body`, `rate`, `approved`, 
 > ex:
 > ```php
 > /*
->  * Inside User model
+>  * Inside Product model
 >  */
 >  
 > public function user() {
