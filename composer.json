@@ -2,8 +2,10 @@
     "name": "melogail/laravel-reviews",
     "description": "Reviews system with rating for laravel 5.*/6.* framework",
     "keywords": ["reviews", "reviewable", "rating", "laravel"],
-    "type": "project",
+    "type": "library",
+    "homepage": "https://github.com/melogail/laravel-reviews",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Mohamed Elogail",

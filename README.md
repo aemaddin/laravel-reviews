@@ -1,4 +1,4 @@
-# Laravel Reviews v 1.0 (Beta)
+# Laravel Reviews v 1.0.0
 PHP package for Laravel framework, you can use it to add reviews and ratings to your Laravel application.
 Useful for eCommerce websites, Blogging websites...etc.
 
